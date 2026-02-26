@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Lower Nicola Watershed Connectivity Restoration Plan: 2021 - 2040"
+  chapters:
+    - index.qmd
+    - content/project-overview.qmd
+    - content/methods-definitions.qmd
+    - content/glossary.qmd
+    - content/connectivity-status-ranking.qmd
+    - content/work-planning.qmd
+    - content/progress-reporting.qmd
+    - content/references.qmd
+    - content/version-history.qmd
+
+    - part: "Appendix A"
+      chapters:
+        - content/non-actionable-barriers.qmd
+        - content/excluded-structures.qmd
+        
+    - part: "Appendix B"
+      chapters:
+        - content/project-partners.qmd
+        - content/data-methods.qmd
+        - content/supplementary-information.qmd
+  
+  sidebar: 
+    pinned: true
+    logo: images/logo.png
+    tools: 
+      - icon: save
+        menu: 
+          - text: Word DOCX
+            url: _book/Lower-Nicola-Watershed-Connectivity-Restoration-Plan--2021---2040.docx
+
+
+
+bibliography: references.bib
+# nocite: |
+#   @*
+engine: knitr
+
+format:
+  html:
+    toc: false
+    css: style.css
+    theme: cosmo
+    toc-title: "LNIC WCRP"
+    crossref:
+      fig-title: '**Figure**'
+      tbl-title: '**Table**'
+  pdf: 
+    toc: true
+    toc-depth: 2
+    documentclass: scrreprt
+    colorlinks: true
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+    # reference-doc: custom-reference-doc.docx
+    tbl-colwidths: [40, 30, 30]
+    keep-md: true
+    keep-ipynb: true
+
+
+#jupyter: "local-venv"
+
+# execute:
+#   cache: true
+
+#titlepage-bg-image: images/spawn.jpg
+
+title-block-banner: "#f6f6f6"

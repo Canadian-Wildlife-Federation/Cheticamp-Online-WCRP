@@ -3,13 +3,13 @@ project:
   output-dir: _book
 
 book:
-  title: "Lower Nicola Watershed Connectivity Restoration Plan: 2021 - 2040"
+  title: "Cheticamp River Connectivity Restoration Plan: 2025 – 2035 "
   chapters:
     - index.qmd
     - content/project-overview.qmd
     - content/methods-definitions.qmd
     - content/glossary.qmd
-    - content/connectivity-status-ranking.qmd
+    - content/acknowledgements.qmd
     - content/work-planning.qmd
     - content/progress-reporting.qmd
     - content/references.qmd

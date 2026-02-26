@@ -3,7 +3,9 @@
 ## Partners {.unnumbered}
 
 ### Planning Team {.unnumbered}
+Cheticamp River WCRP planning team members. Planning team members contributed to the development of this plan by participating in a series of workshops and document and data review. The plan was generated based on the input and feedback of the local groups and organizations listed in this table.[
 
+CHANGE DATA IN TABLE
 ```{r echo = FALSE}
 #| label: tbl-planteam
 #| tbl-cap: "Lower Nicola River watershed WCRP planning team members. Planning team members contributed to the development of this plan by participating in a series of workshops and document and data review. The plan was generated based on the input and feedback of the local groups and organizations list in this table."
@@ -19,8 +21,10 @@ ft <- set_caption(ft)
 ft |> autofit() 
 ```
 
-### Key Actors {.unnumbered}
+## Key Actors {.unnumbered}
+Additional key actors in the Cheticamp River watershed. Key actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP. Key actors were identified by the planning team and do not reflect a commitment to contribute to the implementation and updating of this WCRP.
 
+CHANGE DATA IN TABLE
 ```{r keyact, echo = FALSE, results = 'asis'}
 #| label: tbl-keyact
 #| tbl-cap: "Additional key actors in the Lower Nicola River watershed. Key actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP. Key actors were identified by the planning team and do not reflect a commitment to contribute to the implementation and updating of this WCRP."
@@ -35,3 +39,6 @@ ft <- color(ft, color = "white", part = "header")
 ft <- set_caption(ft)
 ft |> autofit() 
 ```
+
+## Introduction {.unnumbered}
+Cape Breton is a popular destination for many people visiting Nova Scotia driven by the desire to experience the rugged landscape offered by the many hiking trails in the area as well as the famous colours of the cabot trail in the fall (cite).  Atlantic salmon have been historically found in the Cheticamp River watershed, these fish are a part of the Gaspe-Southern Gulf of St. Lawrence population which is designated as special concern by the Committee on the Status of Endangered Wildlife in Canada (COSEWIC) (cite).  

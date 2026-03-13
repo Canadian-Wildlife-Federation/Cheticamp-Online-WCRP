@@ -76,8 +76,3 @@ library("flextable")
 Initial assessments and ground truthing were completed in order to get more information on the current connectivity within the Cheticamp River watershed. As the summer of 2025 was a low water year many of the sites initially ground truthed were dry. Further assessment of priority sites will be undertaken next season to prioritize barriers and plan for remediation where necessary.
 
 
-## Acknowledgments {-}
-
-This plan is the culmination of a collaborative planning process undertaken in the Cheticamp River watershed primarily led by the Cheticamp River Salmon Association in partnership with the Canadian Wildlife Federation supported by the Atlantic Salmon Federation and the Nova Scotia Salmon Association. Without the continued dedication of these groups and individuals to the conservation and restoration of Atlantic salmon habitat this plan would not be possible. Plan development was funded by the Atlantic Salmon Federation. We were fortunate to benefit from the feedback, guidance, and wisdom of people who volunteered their time throughout this process — this publication would not have been possible without the engagement of our partners and the planning team (@tbl-opplan). 
-
-The Canadian Wildlife Federation recognizes that the lands and waters that form the basis of this plan are the traditional unceded territory of the Mi’kmaq peoples. We are grateful for the opportunity to learn from the stewards of this land and work together to benefit Atlantic salmon and American eel.  

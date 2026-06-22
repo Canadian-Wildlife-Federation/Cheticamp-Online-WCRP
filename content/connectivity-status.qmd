@@ -1,33 +1,45 @@
-```{python echo=FALSE}
-import warnings
-import pandas as pd
-import numpy as np
-import python.api_calls as api
-import python.connectivity_assess as conn_table
+---
+jupyter: python3
+---
 
-warnings.filterwarnings('ignore')
-
-
-```
-
-```{r echo=FALSE}
+```{python}
 #| echo: false
-#| include: true
-#| warning: false
+#| output: false
+import sys
+from pathlib import Path
 
-library(reticulate)
+sys.path.append(str(Path.cwd().resolve().parent))
 
+from content.python.api_calls_v2 import get_habitat_stat_value, get_structure_count_value
+
+connected_habitat_km = get_habitat_stat_value(
+    "CHETI", "as", "connected_naturally_accessible_habitat_km"
+)
+disconnected_habitat_km = get_habitat_stat_value(
+    "CHETI", "as", "disconnected_naturally_accessible_habitat_km"
+)
+total_habitat_km = get_habitat_stat_value("CHETI", "as", "total_habitat_km")
+connectivity_status_pct = get_habitat_stat_value(
+    "CHETI", "as", "connectivity_status", digits=1
+)
+
+potentially_disconnect_structures = get_structure_count_value(
+    "CHETI", "as", "structures_that_potentially_disconnect_habitat"
+)
+further_field_assessment = get_structure_count_value(
+    "CHETI", "as", "require_further_assessment"
+)
 ```
 
 # Connectivity Status Results {-}
 
 ## Current Connectivity Status {-}
 
-In the Chéticamp watershed, X km of Atlantic Salmon habitat are currently connected to the ocean and X km are disconnected from it. This means that X% of the X km of total habitat is connected.
+In the Chéticamp watershed, `{python} connected_habitat_km` km of Atlantic Salmon habitat are currently connected to the ocean and `{python} disconnected_habitat_km` km are disconnected from it. This means that `{python} connectivity_status_pct`% of the `{python} total_habitat_km` km of total habitat is connected.
 
 ## Structure Count {-}
 
-In the Chéticamp watershed, X structures potentially disconnect Atlantic Salmon habitat. Of these, X require further field assessment to confirm the presence of salmon habitat upstream.
+In the Chéticamp watershed, `{python} potentially_disconnect_structures` structures potentially disconnect Atlantic Salmon habitat. Of these, `{python} further_field_assessment` require further field assessment to confirm the presence of salmon habitat upstream.
 
 ## Maps {-}
 

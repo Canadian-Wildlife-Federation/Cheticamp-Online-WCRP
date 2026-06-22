@@ -4,14 +4,20 @@
     "href": "index.html",
     "title": "Cheticamp River Connectivity Restoration Plan: 2025 – 2035",
     "section": "",
-    "text": "1 Project Overview"
+    "text": "1 Project Overview",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
   },
   {
     "objectID": "index.html#purpose",
     "href": "index.html#purpose",
     "title": "Cheticamp River Connectivity Restoration Plan: 2025 – 2035",
     "section": "Purpose",
-    "text": "Purpose\nThe purpose of the Watershed Connectivity Restoration Plan (WCRP) is to systematically identify and assess potential barriers to Atlantic salmon migration in the Cheticamp River Watershed. By conducting both desktop and field assessments, the project aims to evaluate the extent of migration barriers caused by manmade structures and identify opportunities for increasing connectivity for salmonid species. This assessment will guide the prioritization of barriers for remediation, ensuring that the most impactful sites are addressed first to enhance Atlantic salmon habitat and improve migration conditions."
+    "text": "Purpose\nThe purpose of the Chéticamp Watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Atlantic Salmon (Salmo salar) in the Chéticamp watershed and inform efforts to close knowledge gaps and plan and prioritize restoration. Local data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat, and informing restoration prioritization. As knowledge gaps are closed and barriers are addressed, this plan will be revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
   },
   {
     "objectID": "index.html#connectivity-status",
@@ -152,5 +158,25 @@
     "title": "Data Deficient Structures",
     "section": "",
     "text": "Table 1:  Priority barriers IDStream nameRoad nameOwnerProposed fixEstimated costUpstream habitat QualityBarrier typeHabitat gainCost Benefit ratioPriorityNext stepsReasonNotes1,100,000,243Gibbons CreekPrivateReassess dam presence5LowTBD2.67053.40LowBarrier assessmentPrivate owner, unlikely to be cooperative.1,100,000,814Rat/Peter CreekPrivateReassess dam presence5LowDam1.41028.20LowBarrier assessmentalso test water quality while out there, take a look at the bridge 124264 on Horsefly-Quesnel Lk Rd  downstream.124,268Vedder CreekHorsefly-Quesnel Lake RoadMOTIReplace with 4 m clearspan bridge400HighPartial0.1750.04MediumDesignHigh quality habitat but seems to be accessible to most fish57,507Wilmot CreekHorsefly 1242-01MOTIReplace with 7 m Clearspan Bridge 700MediumFull1.6500.24HighDesignHigh potential for use by salmon, direct connection to Horsefly124,150Trib to DeerhornUnnamedPrivate (Bob & Helen Sullivan)Replace with 5 m Clearspan Bridge 75MediumPotential1.8902.52MediumDesignGood rearing upstream, good spawning downstreamOwners not super receptive to work right now124,272Trib to Woodjam CreekUnnamedPrivate (for sale) Replace with 4 m clearspan bridge60HighPartial0.9301.55MediumDesignPassable to adults but high quality habitat upstreamProperty for sale124,256Harpers Lake CreekHorsefly RoadMOTIReplace with 7 m Clearspan Bridge 700MediumFull0.8700.12MediumDesignDirect access to Horsefly R, provide access to Harpers Lake126,471Trib to Woodjam CreekunnamedFLNROReplace with 3 m clearspan bridge60MediumPartial0.1100.18LowDesignShort habitat gain, parr able to pass at some flows, dewatering/ stranding potential126,511Trib to Horsefly RiverunnamedTolko IndustriesRemove culvert from under bridge30MediumPotential3.50011.67HighFollow up with barrier ownersimple fix, bridge already in place, low cost, decent habitatIndustry barrier  (Tolko)1,006,800,487Divan CreekunnamedW. Fraser MillsRestore stream channel through deactivated corridor40LowFull1.4403.60MediumFollow up with barrier ownerLow quality habitat but industry-ownedIndustry barrer (W. Fraser Mills)57,158Trib to McKinley CkR02156-887W. Fraser MillsReplace with 6 m clearspan bridge100MediumFull0.3600.36MediumFollow up with barrier ownershort habitat gain (wetland upstream), industry-owned. Poorly definte channel beyond wetlandIndustry barrier (West Fraser Mills)1,100,001,822Gibbons CreekPrivateReassess habitat quality5LowDam2.42048.40LowHabitat investigationsPrivate owner, unlikely to be cooperative57,168Trib to Bosk LakeBlack Creek-Cruiser LakeFLNROReplace with 11 m clearspan bridge150MediumPartial-Full0.9700.65HighRemediationPotential for upstream spawning and rearing"
+  },
+  {
+    "objectID": "index.html#current-connectivity-status",
+    "href": "index.html#current-connectivity-status",
+    "title": "Cheticamp River Connectivity Restoration Plan: 2025 – 2035",
+    "section": "Current Connectivity Status",
+    "text": "Current Connectivity Status\nIn the Chéticamp watershed, 164.66 km of Atlantic Salmon habitat are currently connected to the ocean and 37.63 km are disconnected from it. This means that 81.4% of the 202.29 km of total habitat is connected.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#structure-count",
+    "href": "index.html#structure-count",
+    "title": "Cheticamp River Connectivity Restoration Plan: 2025 – 2035",
+    "section": "Structure Count",
+    "text": "Structure Count\nIn the Chéticamp watershed, 109 structures potentially disconnect Atlantic Salmon habitat. Of these, 108 require further field assessment to confirm the presence of salmon habitat upstream.\n\n\n\nFigure 1:Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). A\n\n\n\n\n\nFigure 2: Habitat Accumulation Curve (HAC) showing structures in the Chéticamp watershed as of May 2026. Structures are ranked based on how much (km) weighted habitat for Atlantic Salmon is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown; however, rehabilitated barriers are shown to demonstrate the connectivity gains achieved through implementation of this plan. A\n\n\nThis WCRP was initiated in 2025 in partnership between the Chéticamp River Salmon Association (CRSA) and the Canadian Wildlife Federation (CWF). In the development phase of this project, a tributary-by-tributary mapping exercise was conducted to gather local knowledge, and fish passage was assessed in the field at 36 sites, and this data were incorporated into the model.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
   }
 ]

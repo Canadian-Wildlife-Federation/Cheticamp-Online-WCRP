@@ -1,32 +1,3 @@
-```{python echo=FALSE}
-import python.api_calls as api
-from ipywidgets import *
-import pandas as pd
-import warnings
-
-warnings.filterwarnings('ignore')
-```
-
-```{r setup, include=FALSE}
-#| echo: false
-#| warning: false
-
-library(reticulate)
-api <- import("python.api_calls")
-gain <- api$gain
-num_dam <- api$num_dam
-km_dam <- api$km_dam
-pct_dam <- api$pct_dam
-resource_km <- api$resource_km
-resource_pct <- api$resource_pct
-demo_km <- api$demo_km
-demo_pct <- api$demo_pct
-resource_sev <- api$resource_sev
-demo_sev <- api$demo_sev
-sum_road <- api$sum_road
-
-```
-
 # Introduction {-}
 
 ## Purpose{-}

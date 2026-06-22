@@ -1,14 +1,13 @@
 # Excluded Structures {-}
 
-
 ```{r keyact, echo = FALSE, results = 'asis'}
-#| label: tbl-keyact
-#| tbl-cap: "Priority barriers"
+#| label: tbl-excluded
+#| tbl-cap: "Structures in the Chéticamp watershed that are excluded from further consideration because the structure is not present, is confirmed passable, or has no key upstream habitat for Atlantic Salmon."
 #| warning: false
 
 library("flextable")
 
-data <- read.csv("data/priority_barriers.csv", check.names=FALSE)
+data <- read.csv("data/table4.csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- bg(ft, bg = "#008270", part = "header")
 ft <- color(ft, color = "white", part = "header")

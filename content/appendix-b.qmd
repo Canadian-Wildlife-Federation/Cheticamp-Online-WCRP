@@ -13,15 +13,7 @@ ft <- format_flextable(ft)
 ft
 ```
 
-```{r echo = FALSE}
-#| label: table-6
-#| tbl-cap: "Table 6. Additional key actors in the Chéticamp River watershed. Key actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP. Key actors were identified by the planning team and do not reflect a commitment to contribute to the implementation and updating of this WCRP. "
-source("Rscripts/table_formatting.R")
-data <- read.csv("data/table6.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- format_flextable(ft)
-ft
-```
+
 
 ## Detailed Methods {-}
 

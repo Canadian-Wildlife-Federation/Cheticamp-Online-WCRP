@@ -7,7 +7,7 @@ There are no confirmed barriers determined to be non-actionable through this WCR
 
 ```{r table3, echo = FALSE, results = 'asis'}
 #| label: table-3
-#| tbl-cap: "Table 5. Structures in Chéticamp watershed that have been assessed for fish passage for Atlantic Salmon as of May 2026, but either require an additional in-depth fish-passage assessment to confirm the passability status or a habitat assessment to confirm upstream habitat is present. "
+#| tbl-cap: "Table 3. Structures in Chéticamp watershed that have been assessed for fish passage for Atlantic Salmon as of May 2026, but either require an additional in-depth fish-passage assessment to confirm the passability status or a habitat assessment to confirm upstream habitat is present. "
 #| echo: false
 source("Rscripts/table_formatting.R")
 library("flextable")

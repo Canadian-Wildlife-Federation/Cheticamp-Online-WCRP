@@ -10,7 +10,7 @@
 
 library("flextable")
 
-data <- read.csv("data/planning_team.csv", check.names=FALSE)
+data <- read.csv("data/table6.csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- bg(ft, bg = "#008270", part = "header")
 ft <- color(ft, color = "white", part = "header")
@@ -27,7 +27,7 @@ ft |> autofit()
 
 library("flextable")
 
-data <- read.csv("data/key_actors.csv", check.names=FALSE)
+data <- read.csv("data/table5.csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- bg(ft, bg = "#008270", part = "header")
 ft <- color(ft, color = "white", part = "header")

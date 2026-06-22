@@ -1,13 +1,13 @@
 ## Data Deficient Structures {-}
 
 ```{r keyact, echo = FALSE, results = 'asis'}
-#| label: tbl-keyact
-#| tbl-cap: "Priority barriers"
+#| label: tbl-data-deficient
+#| tbl-cap: "Structures in the Chéticamp watershed that have been assessed for fish passage for Atlantic Salmon as of May 2026, but require additional habitat confirmation or in-depth follow-up."
 #| warning: false
 
 library("flextable")
 
-data <- read.csv("data/priority_barriers.csv", check.names=FALSE)
+data <- read.csv("data/table3.csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- bg(ft, bg = "#008270", part = "header")
 ft <- color(ft, color = "white", part = "header")

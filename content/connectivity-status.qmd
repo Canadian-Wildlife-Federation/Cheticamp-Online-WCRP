@@ -1,6 +1,9 @@
----
-jupyter: python3
----
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(reticulate)
+```
 
 ```{python}
 #| echo: false
@@ -35,31 +38,33 @@ further_field_assessment = get_structure_count_value(
 
 ## Current Connectivity Status {-}
 
-In the Chéticamp watershed, `{python} connected_habitat_km` km of Atlantic Salmon habitat are currently connected to the ocean and `{python} disconnected_habitat_km` km are disconnected from it. This means that `{python} connectivity_status_pct`% of the `{python} total_habitat_km` km of total habitat is connected.
+In the Cheticamp watershed, `{r} py$connected_habitat_km` km of Atlantic Salmon habitat are currently connected to the ocean and `{r} py$disconnected_habitat_km` km are disconnected from it. This means that `{r} py$connectivity_status_pct`% of the `{r} py$total_habitat_km` km of total habitat is connected.
 
 ## Structure Count {-}
 
-In the Chéticamp watershed, `{python} potentially_disconnect_structures` structures potentially disconnect Atlantic Salmon habitat. Of these, `{python} further_field_assessment` require further field assessment to confirm the presence of salmon habitat upstream.
+In the Cheticamp watershed, `{r} py$potentially_disconnect_structures` structures potentially disconnect Atlantic Salmon habitat. Of these, 22 require further field assessment to confirm the presence of salmon habitat upstream.
 
-## Maps {-}
+## Map {-}
 
-![Figure 1: : Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).  <br> A](images/Figure 1.png){fig-cap-location="top"}
+![Figure 1:Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Cheticamp watershed as of May 2026, a) north and b) south of Fishing Cove. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).](images/Figure1_a.png){fig-cap-location="top"}
+
+![](images/Figure1_b.png){fig-cap-location="top"}
 
 ## Habitat Accumulation Curves
 
-![Figure 2: Habitat Accumulation Curve (HAC) showing structures in the Chéticamp watershed as of May 2026. Structures are ranked based on how much (km) weighted habitat for Atlantic Salmon is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown; however, rehabilitated barriers are shown to demonstrate the connectivity gains achieved through implementation of this plan.](images/Figure 3.png){fig-cap-location="top"}
+![Figure 2: Habitat Accumulation Curve (HAC) showing structures in the Cheticamp watershed as of May 2026. Structures are ranked based on how much (km) weighted habitat for Atlantic Salmon is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown; however, rehabilitated barriers are shown to demonstrate the connectivity gains achieved through implementation of this plan.](images/Figure 2.png){fig-cap-location="top"}
 
 ## Habitat Accumulation Summary Table
 
-```{r hac1, echo = FALSE, results = 'asis'}
+```{r}
 #| label: table-1
-#| tbl-cap: "Table 1.  Labelled structures in the Habitat Accumulation Curve (Figure 2), their rank, and weighted upstream habitat for Atlantic Salmon in Chéticamp watershed. Habitat gain (averaged across sets) represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the potential gain in habitat if passage at that structure was restored. "
+#| tbl-cap: "Table 1. Labelled structures in the Habitat Accumulation Curve (Figure 2), their rank, and weighted upstream habitat for Atlantic Salmon in Cheticamp watershed. Habitat gain (averaged across sets) represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the potential gain in habitat if passage at that structure was restored."
 #| warning: false
 #| echo: false
 source("Rscripts/table_formatting.R")
 library("flextable")
 
-data <- read.csv("data/table1.csv", check.names=FALSE)
+data <- read.csv("data/table1.csv", check.names = FALSE)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft

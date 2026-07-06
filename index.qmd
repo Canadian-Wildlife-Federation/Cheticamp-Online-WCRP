@@ -2,7 +2,7 @@
 jupyter: python3
 ---
 
-# Project Overview
+# Project Overview {-}
 
 ```{python}
 #| echo: false

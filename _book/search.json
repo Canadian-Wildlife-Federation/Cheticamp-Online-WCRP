@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Cheticamp River Connectivity Restoration Plan: 2025 – 2035",
     "section": "",
-    "text": "1 Project Overview",
+    "text": "Project Overview",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Project Overview"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "Purpose",
     "text": "Purpose\nThe purpose of the Chéticamp Watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Atlantic Salmon (Salmo salar) in the Chéticamp watershed and inform efforts to close knowledge gaps and plan and prioritize restoration. Local data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat, and informing restoration prioritization. As knowledge gaps are closed and barriers are addressed, this plan will be revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Project Overview"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "section": "Current Connectivity Status",
     "text": "Current Connectivity Status\nIn the Chéticamp watershed, 164.66 km of Atlantic Salmon habitat are currently connected to the ocean and 37.63 km are disconnected from it. This means that 81.4% of the 202.29 km of total habitat is connected.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Project Overview"
     ]
   },
   {
@@ -36,87 +36,117 @@
     "section": "Structure Count",
     "text": "Structure Count\nIn the Chéticamp watershed, 109 structures potentially disconnect Atlantic Salmon habitat. Of these, 108 require further field assessment to confirm the presence of salmon habitat upstream.\n\n\n\nFigure 1:Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). A\n\n\n\n\n\nB\n\n\n\n\n\nFigure 2: Habitat Accumulation Curve (HAC) showing structures in the Chéticamp watershed as of May 2026. Structures are ranked based on how much (km) weighted habitat for Atlantic Salmon is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown; however, rehabilitated barriers are shown to demonstrate the connectivity gains achieved through implementation of this plan. A\n\n\nThis WCRP was initiated in 2025 in partnership between the Chéticamp River Salmon Association (CRSA) and the Canadian Wildlife Federation (CWF). In the development phase of this project, a tributary-by-tributary mapping exercise was conducted to gather local knowledge, and fish passage was assessed in the field at 36 sites, and this data were incorporated into the model.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Project Overview"
     ]
   },
   {
-    "objectID": "content/project-overview.html",
-    "href": "content/project-overview.html",
-    "title": "Introduction",
+    "objectID": "content/connectivity-status.html",
+    "href": "content/connectivity-status.html",
+    "title": "Connectivity Status Results",
     "section": "",
-    "text": "Purpose\nThe purpose of the Chéticamp Watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Atlantic Salmon in the Chéticamp watershed and inform efforts to close knowledge gaps and plan and prioritize field assessments and restoration.\nLocal data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat.\nThis information is also used to inform and plan restoration efforts. Structure rankings inform restoration prioritization by summarizing what is known about fragmentation and showing the relative amount of habitat upstream of each barrier. Actual prioritization of restoration activities is a social decision that requires additional information, including the quality and condition of upstream habitat, the cultural importance of different areas within the watershed, and the costs and logistics of addressing each barrier relative to the ecological benefits of doing so.\nAs knowledge gaps are closed and barriers are addressed, this plan is revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures.",
+    "text": "Current Connectivity Status\nIn the Chéticamp watershed, 164.66 km of Atlantic Salmon habitat are currently connected to the ocean and 37.63 km are disconnected from it. This means that 81.4% of the 202.29 km of total habitat is connected.",
     "crumbs": [
-      "Introduction"
+      "Connectivity Status Results"
     ]
   },
   {
-    "objectID": "content/project-overview.html#scope",
-    "href": "content/project-overview.html#scope",
-    "title": "Introduction",
-    "section": "Scope",
-    "text": "Scope\nThis WCRP focuses on habitat connectivity for Atlantic Salmon in the Chéticamp watershed (Figure 3). Model outputs include an estimate of the current connectivity status along with structure ranks and counts.\nConnectivity models in this WCRP focus on longitudinal habitat fragmentation by anthropogenic structures, including all types of dams and stream crossings. Diffuse natural barriers that make entire areas impassible are not included in the models but may be used to define the scope of this WCRP. For example, a tributary that is inhospitable because of increased water temperature may be excluded from the overall spatial scope of the WCRP because restoration needs there are broader than connectivity.\n\n\n\nFigure 3: Map of the geographic scope of this connectivity restoration plan for Atlantic Salmon in the Chéticamp watershed in Cape Breton, Nova Scotia.",
+    "objectID": "content/connectivity-status.html#structure-count",
+    "href": "content/connectivity-status.html#structure-count",
+    "title": "Connectivity Status Results",
+    "section": "Structure Count",
+    "text": "Structure Count\nIn the Chéticamp watershed, 109 structures potentially disconnect Atlantic Salmon habitat. Of these, 108 require further field assessment to confirm the presence of salmon habitat upstream.",
     "crumbs": [
-      "Introduction"
+      "Connectivity Status Results"
+    ]
+  },
+  {
+    "objectID": "content/connectivity-status.html#maps",
+    "href": "content/connectivity-status.html#maps",
+    "title": "Connectivity Status Results",
+    "section": "Maps",
+    "text": "Maps\n\n\n\nFigure 1: : Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).  A",
+    "crumbs": [
+      "Connectivity Status Results"
+    ]
+  },
+  {
+    "objectID": "content/connectivity-status.html#habitat-accumulation-curves",
+    "href": "content/connectivity-status.html#habitat-accumulation-curves",
+    "title": "Connectivity Status Results",
+    "section": "Habitat Accumulation Curves",
+    "text": "Habitat Accumulation Curves\n\n\n\nFigure 2: Habitat Accumulation Curve (HAC) showing structures in the Chéticamp watershed as of May 2026. Structures are ranked based on how much (km) weighted habitat for Atlantic Salmon is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown; however, rehabilitated barriers are shown to demonstrate the connectivity gains achieved through implementation of this plan.",
+    "crumbs": [
+      "Connectivity Status Results"
+    ]
+  },
+  {
+    "objectID": "content/connectivity-status.html#habitat-accumulation-summary-table",
+    "href": "content/connectivity-status.html#habitat-accumulation-summary-table",
+    "title": "Connectivity Status Results",
+    "section": "Habitat Accumulation Summary Table",
+    "text": "Habitat Accumulation Summary Table\n```{r hac1, echo = FALSE, results = ‘asis’} #| label: table-1 #| tbl-cap: “Table 1. Labelled structures in the Habitat Accumulation Curve (Figure 2), their rank, and weighted upstream habitat for Atlantic Salmon in Chéticamp watershed. Habitat gain (averaged across sets) represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the potential gain in habitat if passage at that structure was restored.” #| warning: false #| echo: false source(“Rscripts/table_formatting.R”) library(“flextable”)\ndata &lt;- read.csv(“data/table1.csv”, check.names=FALSE) ft &lt;- flextable(data) ft &lt;- format_flextable(ft) ft ```",
+    "crumbs": [
+      "Connectivity Status Results"
     ]
   },
   {
     "objectID": "content/data-methods.html",
     "href": "content/data-methods.html",
-    "title": "2  Methods",
+    "title": "Methods",
     "section": "",
     "text": "Connectivity Modelling\nThe current connectivity status was estimated using three models:\nAccessibility model: Naturally accessible waterbodies are those that are considered likely accessible to focal species if no human-made barriers existed on the landscape. These were spatially delineated for each focal species using natural barriers (i.e., waterfalls, gradient barriers, or subsurface flows) that would limit upstream movement (?tbl-targspec).\nHabitat model: A subset of the naturally accessible waterbody layer was defined as key habitat based on the KEA. The habitat model identifies waterbodies that have a higher potential to support key habitat based on stream characteristics like channel gradient and discharge. The habitat model criteria can be found in (?tbl-targspec).\nConnectivity model: A layer of known or modelled structures was overlaid on the key habitat results. Structures with unknown passability were treated as a full barrier until confirmed passable (100% passable) or partially passable (25, 50, or 75%) by either local knowledge, desktop review, or field assessment. Watershed connectivity was estimated by calculating the amount of key habitat that is connected to the ocean (i.e., not fragmented by human-made barriers). The amount of key habitat considered connected was determined by the cumulative passability of all downstream barriers. Key habitat with only passable structures downstream was considered fully connected. All key habitat with any full barrier downstream was considered disconnected. Connected key habitat upstream of partial barriers was weighted based on the passability values of any downstream partial barriers. For example, a 10 km habitat patch with two downstream partial barriers (both with 50% passability) was considered to represent 2.5 km of connected key habitat. All connected habitats were summed and divided by the total amount of key habitat in the watershed to determine the proportion of connected habitat relative to the entire watershed.\nA primary outcome of the WCRP is addressing barriers to restore connectivity within the Cheticamp River watershed. To achieve the goals set out in this plan it is necessary to identify a series of barriers that if made passable would reconnect a large contribution of Atlantic salmon and American eel habitat.\nAfter all existing data and knowledge are collated for known and modelled crossings, an iterative ranking process is conducted to help confirm barriers to target for rehabilitation to meet the goals. The ranking process is primarily used to guide field assessments and maximize efficiency in ground truthing data/knowledge inputs and model outputs, while providing a secondary purpose to evaluate the relative key habitat gains of confirmed barriers in the watershed. Field assessments can include an assessment of either the passability status of a structure (whether fish can pass upstream, and to what degree), whether the upstream habitat is suitable for the focal species, and whether there are other undocumented anthropogenic or natural barriers upstream or downstream. First, structures are grouped into ‘sets’. Sets are identified by maximizing the key habitat gain for barriers in the same tributary system. If adding a structure to a set reduces the gain-per-barrier (i.e., the total habitat gain of the set divided by the number of barriers in the set), then it is excluded and will be considered part of another set. Each set is ranked by its potential to contribute to restoring the overall habitat connectivity. The higher a set is ranked, the more potential contribution it makes to restoring the overall habitat connectivity, therefore making the set a higher priority for field assessment. By assessing the passability status and upstream habitat of the top-ranked sets, we close knowledge gaps with the greatest influence on the overall connectivity model results.\nSets are ranked by a combination of two factors:\nAn overall ranking for each set was produced as a composite of the long-term and immediate potential gain ranks to prioritize sets that maximize long-term and immediate potential to improve key habitat connectivity in the watershed. All structures in the watershed (excluding those confirmed as passable) were ranked and a subset of those structures were selected for field assessment.\nThe majority of crossing structures in the Cheticamp River watershed were stream crossings for roads and trails making them the most abundant structure type in the watershed. Rapid assessment and ground truthing was completed for many of the structures within the watershed with formal assessments planned for the 2026 season.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
+      "Methods"
     ]
   },
   {
     "objectID": "content/data-methods.html#connectivity-modelling",
     "href": "content/data-methods.html#connectivity-modelling",
-    "title": "2  Methods",
+    "title": "Methods",
     "section": "",
     "text": "The long-term potential impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating and ranking sets by the amount of total upstream key habitat (i.e., ignoring any additional upstream sets). This ranking identifies sets that would have the greatest long-term potential gain in habitat connectivity once any subsequent upstream barriers are addressed.\nThe immediate potential impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating the amount of functional upstream habitat (i.e., key habitat between that set and the next upstream set of structures). Sets were then ranked by functional upstream habitat amount in tiers, where sets with no downstream sets were ranked first, then sets with one downstream set, and so on. This ranking identifies sets that have the greatest immediate potential gain in habitat by prioritizing sets that don’t rely on rehabilitation of downstream or upstream sets to realize these gains.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
+      "Methods"
     ]
   },
   {
     "objectID": "content/glossary.html",
     "href": "content/glossary.html",
-    "title": "3  Glossary",
+    "title": "Glossary",
     "section": "",
     "text": "General Terms",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Glossary</span>"
+      "Glossary"
     ]
   },
   {
     "objectID": "content/glossary.html#general-terms",
     "href": "content/glossary.html#general-terms",
-    "title": "3  Glossary",
+    "title": "Glossary",
     "section": "",
     "text": "Freshwater connectivity\nThe degree to which aquatic species can move, disperse, or migrate freely through freshwater systems.\n\n\nFocal species or guilds\nThe ecologically and culturally important species (e.g., Westslope Cutthroat Trout) or groups of species for which habitat connectivity is being conserved or restored.\n\n\nHabitat\nKey habitat that is likely to support important life stages for focal species (i.e., spawning and rearing), rather than simply movement corridors.\n\n\nStructure:\nA feature, either anthropogenic (e.g., culvert, dam) or a temporary natural feature (e.g., barrier beach, debris jam) that may fragment freshwater systems and limit the ability of species to disperse and/or migrate freely within their naturally accessible habitat. Differentiated from more permanent natural features, such as waterfalls, that delineate naturally accessible waterbodies.\n\n\nSet of structures:\nA set of two or more structures that must be addressed/considered together for restoration or rehabilitation when considering the total amount of connectivity to be gained during barrier prioritization.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Glossary</span>"
+      "Glossary"
     ]
   },
   {
     "objectID": "content/glossary.html#partial-passability",
     "href": "content/glossary.html#partial-passability",
-    "title": "3  Glossary",
+    "title": "Glossary",
     "section": "Partial Passability",
     "text": "Partial Passability\nStructures that pass some individuals but not all. This includes structures that are passable only during certain seasons or flow conditions, structures that pass certain species or life stages but not others, or structures that only a subset of similar individuals typically pass.\n\nCurrent connectivity status\nthe measure (i.e., amount, proportion, or index) of habitat that is currently connected for each focal species, assuming that all unassessed structures are barriers. \n\n\nRank\nThe relative importance of a structure (individually and/or in sets) based on the amount (km) of habitat blocked by it. For sets of structures, the total amount of habitat blocked by the set is averaged by the number of barriers in the set.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Glossary</span>"
+      "Glossary"
     ]
   },
   {
     "objectID": "content/glossary.html#structure-status-terms",
     "href": "content/glossary.html#structure-status-terms",
-    "title": "3  Glossary",
+    "title": "Glossary",
     "section": "Structure Status Terms",
     "text": "Structure Status Terms\n\nUnassessed structures\nMapped structures that have not been assessed in the field.\n\n\nExcluded Structures\nStructures that were investigated and removed from consideration or the model because they do not exist, are passable, or that no habitat was found upstream.\n\n\nData-deficient barriers\nStructures that have had some form of assessment but need further investigation before a decision can be made as to whether they will be listed as a priority.\n\n\nPriority barrier\nStructures that were assessed as barriers with habitat upstream, and for which fish-passage rehabilitation is being pursued.\n\n\nNon-actionable barriers\nStructures that were assessed as barriers with habitat upstream, but for which fish-passage rehabilitation is not being actively pursued.\n\n\nRehabilitated barriers\nBarriers that were removed, replaced, or modified to improve fish passage.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Glossary</span>"
+      "Glossary"
     ]
   },
   {

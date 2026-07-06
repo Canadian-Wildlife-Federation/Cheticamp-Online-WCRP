@@ -42,11 +42,14 @@ In the Chéticamp watershed, `{python} connected_habitat_km` km of Atlantic Salm
 
 ## Structure Count {-}
 
-In the Chéticamp watershed, `{python} potentially_disconnect_structures` structures potentially disconnect Atlantic Salmon habitat. Of these, `{python} further_field_assessment` require further field assessment to confirm the presence of salmon habitat upstream.
+In the Chéticamp watershed, `{python} potentially_disconnect_structures` structures potentially disconnect Atlantic Salmon habitat. Of these, 22 require further field assessment to confirm the presence of salmon habitat upstream.
 
-## Maps {-}
+## Map {-}
 
-![Figure 3: : Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).](images/Figure 3.png){fig-cap-location="top"}
+![Figure 1:Map of Atlantic Salmon habitat and structures that are confirmed or potential barriers to fish passage in the Chéticamp watershed as of May 2026, a) north and b) south of Fishing Cove. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Atlantic Salmon could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Atlantic Salmon for spawning or rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).](content/images/Figure1_a.png){fig-cap-location="top"} 
+
+![](content/images/Figure1_b.png){fig-cap-location="top"} 
+
 
 ## Habitat Accumulation Curves
 

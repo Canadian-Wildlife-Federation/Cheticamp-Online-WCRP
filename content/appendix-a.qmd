@@ -1,4 +1,4 @@
-# Appendix A {-}
+# Appendix A - Structure List Status {-}
 
 ## Non-actionable Barriers {-}
 There are no confirmed barriers determined to be non-actionable through this WCRP as of May 2026.

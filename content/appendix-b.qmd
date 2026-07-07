@@ -1,10 +1,23 @@
 # Appendix B - Partners and Detailed Methods {-}
 
+## Planning Team {-}
+```{r}
+#| label: table-5
+#| tbl-cap: "Chéticamp WCRP planning team members. Planning team members contributed to the development of this plan by participating in scoping and planning meetings, and reviewing documents and data."
+#| echo: false
+#| warning: false
+source("Rscripts/table_formatting.R")
+data <- read.csv("data/table5.csv", check.names = FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```
+
 ## Partners {-}
 
 ```{r}
 #| label: table-6
-#| tbl-cap: "Table 6. Cheticamp WCRP planning team members. Planning team members contributed to the development of this plan by participating in scoping and planning meetings, and reviewing documents and data."
+#| tbl-cap: "Additional key actors in the Chéticamp River watershed. Key actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP. Key actors were identified by the planning team and do not reflect a commitment to contribute to the implementation and updating of this WCRP. "
 #| echo: false
 #| warning: false
 source("Rscripts/table_formatting.R")
